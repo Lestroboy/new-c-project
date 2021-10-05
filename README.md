@@ -143,22 +143,100 @@ int main()
          cout<<"ENTER YOUR AGE BELOW!"<<endl;
          cin>>age;
          
-         if(age <= 5){
-             cout<<"ARE YOU KIDDING?"<<endl;
-             cout<<"ARE YOU ABLE TO RUN THIS PROGRAM?"<<endl;
-             cout<<"OR...YOU ARE JUST LYING TO ME?"<<endl;
-             cout<<"ANYWAY YOU MIGHT BE GENIUS!"<<endl<<endl;
+         if(age == 1){
+             cout<<"YOU ARE 1 YEAR OLD!"<<endl;
+             cout<<"ARE YOU KIDDING ME?"<<endl;
+             COUT<<"YOU ARE JUST CHECKING MY ABILITY, RIGHT?"<<endl;
          }
          
-         else if(age >= 5)&&(age <= 10){
-             cout<<"I THINK YOU ARE LITTLE BIT INTERESTED IN PROGRAMMING!"<<endl;
-             cout<<"FROM MY SUGGESTION YOU SHOULD START LEARNING FROM NOW!"<<endl;
+         else if(age == 2){
+             cout<<"YOU ARE 2 YEAR OLD!"<<endl;
+             cout<<"CAN YOU EVEN WALK?\nHAHAHAHAHA......NICE JOKE!"<<endl;
          }
          
-         else if(age >= 10)&&(age <= 15){
-             cout<<""
+         else if(age == 3){
+             cout<<"YOU ARE 3 YEAR OLD!"<<endl;
+             cout<<"CAN YOU EVEN ANSWER WHAT IS 1+1+?\nHAHAHAHAHAHA.....NICE JOKE!"<<endl;
          }
          
+         else if(age == 4){
+             cout<<"YOU ARE 4 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else if(age == 5){
+             cout<<"YOU ARE 5 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else if(age == 6){
+             cout<<"YOU ARE 6 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else if(age == 7){
+             cout<<"YOU ARE 7 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else if(age == 8){
+             cout<<"YOU ARE 8 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else if(age == 9){
+             cout<<"YOU ARE 9 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else if(age == 10){
+             cout<<"YOU ARE 10 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else if(age == 11){
+             cout<<"YOU ARE 11 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+             
+         else if(age == 12){
+             cout<<"YOU ARE 12 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else if(age == 13){
+             cout<<"YOU ARE 13 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else if(age == 14){
+             cout<<"YOU ARE 14 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else if(age == 15){
+             cout<<"YOU ARE 15 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else if(age == 16){
+             cout<<"YOU ARE 16 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else if(age == 17){
+             cout<<"YOU ARE 17 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else if(age == 18){
+             cout<<"YOU ARE 18 YEAR OLD!"<<endl;
+             cout<<""<<endl;
+         }
+         
+         else{
+             cout<<""<<endl;
+         }
          
          
          
