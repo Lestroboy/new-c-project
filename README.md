@@ -196,46 +196,46 @@ int main()
          
          else if(age == 11){
              cout<<"YOU ARE 11 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"I DON'T REMEMBER WAT WAS I DOING AT YOUR AGE!\nMIGHT BE PLAYING WITH MY TOYS :)"<<endl;
          }
              
          else if(age == 12){
              cout<<"YOU ARE 12 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"I REMEMBER AT THIS AGE I CELEBRATED MY FIRST BIRTHDAY"<<endl;
          }
          
          else if(age == 13){
              cout<<"YOU ARE 13 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"YOU ARE GOING GOOD, GREAT!"<<endl;
          }
          
          else if(age == 14){
              cout<<"YOU ARE 14 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"YOU SHOULD NOW FOCUS ON YOUR STUDY'S\nYOU ARE DOING GREAT CHECKING STUFFS LIKE THIS!"<<endl;
          }
          
          else if(age == 15){
              cout<<"YOU ARE 15 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"I STILL REMEMBER AT THIS AGE I WAS REALLY USE TO STUDY 18+ HOUR'S.\nI KNOW IT'S HARD TO BELIVE!"<<endl;
          }
          
          else if(age == 16){
              cout<<"YOU ARE 16 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"YOU ARE ENOUGH TO HOLD YOUR FATHER'S WORK, GREAT!\nEVEN I AM TOO 16.\nIF YOU WOULD HAVE READ ABOUT ME IN THE STARTS :)"<<endl;
          }
          
          else if(age == 17){
              cout<<"YOU ARE 17 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"YOU MIGHT BE KNOEING MORE THAN ME!"<<endl;
          }
          
          else if(age == 18){
              cout<<"YOU ARE 18 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"CONGRAT'S YOU ARE ADULT NOW\nAH..ACCORDING TO THE LOGIC!"<<endl;
          }
          
          else{
-             cout<<""<<endl;
+             cout<<"SORRY BUT....THEIR'S NOTING TO SAY ANYTHING ABOUT YOUR AGE.\nAS I AM JUST 16 :)"<<endl;
          }
          
          
