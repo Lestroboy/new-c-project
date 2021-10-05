@@ -161,37 +161,37 @@ int main()
          
          else if(age == 4){
              cout<<"YOU ARE 4 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"FIRST YOU SHOULD LEARN TO WALK PROPERLY!\nHAHAHAHAHA......NICE JOKE!"<<endl;
          }
          
          else if(age == 5){
              cout<<"YOU ARE 5 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"I THINK YOU SHOULD JOIN A SCHOOL!\nHAHAHAHA.....NICE JOKE!"<<endl;
          }
          
          else if(age == 6){
              cout<<"YOU ARE 6 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"I THINK YOU SHOULD LEARN TABLE FIRST!\nHAHAHAHA....NICE JOKE!"<<endl;
          }
          
          else if(age == 7){
              cout<<"YOU ARE 7 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"I THINK YOU ARE GENIUS!\nTHAT'S GREAT YOU MIGHT KNOW TO USE ELCTRONICS DEVICES!"<<endl;
          }
          
          else if(age == 8){
              cout<<"YOU ARE 8 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"I THINK! YOU SHOULD START LEARNING CODING!"<<endl;
          }
          
          else if(age == 9){
              cout<<"YOU ARE 9 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"GREAT YOU ARE NOT WASTING YOUR TIME\nYOU SHOULD SEARCH STUFFS LIKE THIS!"<<endl;
          }
          
          else if(age == 10){
              cout<<"YOU ARE 10 YEAR OLD!"<<endl;
-             cout<<""<<endl;
+             cout<<"I THINK YOU SHOULD DO SOME CRAZY STUFFS ON INTERNET\nLIKE THIS, HOW I DID THIS FIND OUT AND LEARN!"<<endl;
          }
          
          else if(age == 11){
