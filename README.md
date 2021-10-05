@@ -28,7 +28,7 @@ int main()
         cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTIONS :("<<endl<<endl;
     }
     
-    //ASKING WHEATHER HE/SHE WANT TO KNOW ABOUT ME.
+    //ASKING WEATHER HE/SHE WANT TO KNOW ABOUT ME.
     
     cout<<"DO YOU WANT TO KNOW ABOUT ME"<<endl;
     cout<<"            OR              "<<endl;
@@ -113,16 +113,21 @@ int main()
         //ASKING TO PLAY A GAME.
         
         cout<<"WELL "<<name<<" THEIR ARE MANY THINGS TO ASK AND TALK"<<endl<<endl;
-        cout<<"BUT, BEFORE THAT LET'S PLAY SOME GAME"<<endl<<endl;
+        cout<<"BUT, BEFORE THAT LET'S PLAY SOME TRICKY GAME :)"<<endl<<endl;
         
-        cout<<"ENTER 1 IF YOU WANT TO PLAY A GAME.\nENTER 0 IF YOU DON'T WANT TO PLAY A GAME."<<endl<<endl;
+        cout<<"ENTER 1 IF YOU WANT TO PLAY A TRICKY GAME .\nENTER 0 IF YOU DON'T WANT TO PLAY A TRICKY GAME ."<<endl<<endl;
         cin>>A;
         
         if(A == 1){
-            cout<<"SO "<<name<<" YOU ARE READY TO START A GAME THAT'S GOOD."<<endl<<endl;
+            cout<<"SO "<<name<<" YOU ARE READY TO START A TRICKY GAME, THAT'S GOOD."<<endl<<endl;
             
+            cout<<"STEP 1.THINK A NUMBER BETWEEN 1 TO 10."<<endl;
+            cout<<"STEP 2.NOW MULTIPLY THE NUMBER YOU CHOOSED BY 2."<<endl;
+            cout<<"STEP 3.THE ANSWER YOU GOT MULTIPLY IT BY 5."<<endl;
+            cout<<"STEP 4.THE ANSWER YOU GOT DIVIDE IT BY THE NUMBER YOU CHOOSED AT THE START."<<endl;
+            cout<<"STEP 5.THE ANSWER YOU GOT NOW SUBSTRACT IT BY 7."<<endl;
             
-            
+            cout<<"SO LET ME TELL YOU THE ANSWER YOU GOT IS [3]"<<endl;
             
             
             
@@ -139,6 +144,9 @@ int main()
         }
          
          cout<<"WELL "<<name<<"! LET'S GET BACK TO THE CONVERSATION."<<endl<<endl;
+         
+         //ASKING THE AGE.
+         
          cout<<"I FORGOT TO AGK YOUR AGE?"<<endl;
          cout<<"ENTER YOUR AGE BELOW!"<<endl;
          cin>>age;
@@ -238,20 +246,7 @@ int main()
              cout<<"SORRY BUT....THEIR'S NOTING TO SAY ANYTHING ABOUT YOUR AGE.\nAS I AM JUST 16 :)"<<endl;
          }
          
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
+        
     
 
     return 0;
