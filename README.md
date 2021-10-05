@@ -75,7 +75,7 @@ int main()
         
         cout<<"SO WHAT IS YOUR GENDER?"<<endl<<endl;
         cout<<"ENTER 1 IF YOU ARE A 'BOY'.\nENTER 0 IF YOU ARE A 'GIRL'."<<endl<<endl;
-        cout<<A;
+        cin<<A;
         
         if(A == 1){
             cout<<"HMM... I SEE.BOY'S SHOULD ALWAYS RESPECT TO GIRL'S."<<endl<<endl;
@@ -127,11 +127,32 @@ int main()
             cout<<"STEP 4.THE ANSWER YOU GOT DIVIDE IT BY THE NUMBER YOU CHOOSED AT THE START."<<endl;
             cout<<"STEP 5.THE ANSWER YOU GOT NOW SUBSTRACT IT BY 7."<<endl;
             
+            //TELLING THE ANSWER OF MATHS TRICK.
+            
             cout<<"SO LET ME TELL YOU THE ANSWER YOU GOT IS [3]"<<endl;
             
+            //ASKING TO USE CALCULATOR.
             
+            cout<<"DO YOU WANT TO USE THE CACULATOR?\nFOR CROSS CHECKING THE ANSWER."<<endl;
+            cout<<"ENTER 1 FOR 'YES'.\nENTER 0 FOR 'NO'."<<endl;
+            cin>>A;
             
+            if(A == 1){
+                cout<<"ENTER THE NUMBER YOU THOUGHT"<<endl;
+                cin>>A;
+                
+                int ansum = A*2*5/A-7;
+                
+                cout<<"SO "<<name<<" "<<ansum<<" IS THE ANSWER YOU GOT FROM CALCULATOR"<<endl;
+            }
             
+            else if(A == 0){
+                cout<<"SEEMS LIKE YOU HAVE YOUR OWN CALCULATOR!"<<endl<<endl;
+            }
+            
+            else{
+                cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTIONS :("<<endl<<endl;
+            }
             
         }
         
@@ -154,7 +175,7 @@ int main()
          if(age == 1){
              cout<<"YOU ARE 1 YEAR OLD!"<<endl;
              cout<<"ARE YOU KIDDING ME?"<<endl;
-             COUT<<"YOU ARE JUST CHECKING MY ABILITY, RIGHT?"<<endl;
+             cout<<"YOU ARE JUST CHECKING MY ABILITY, RIGHT?"<<endl;
          }
          
          else if(age == 2){
