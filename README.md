@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int A;
+    int A, age;
     string name;
     
     cout<<"WELLCOME TO MY PROGRAM."<<endl<<endl;
@@ -137,6 +137,33 @@ int main()
         else{
             cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTIONS :("<<endl<<endl;
         }
+         
+         cout<<"WELL "<<name<<"! LET'S GET BACK TO THE CONVERSATION."<<endl<<endl;
+         cout<<"I FORGOT TO AGK YOUR AGE?"<<endl;
+         cout<<"ENTER YOUR AGE BELOW!"<<endl;
+         cin>>age;
+         
+         if(age <= 5){
+             cout<<"ARE YOU KIDDING?"<<endl;
+             cout<<"ARE YOU ABLE TO RUN THIS PROGRAM?"<<endl;
+             cout<<"OR...YOU ARE JUST LYING TO ME?"<<endl<<endl;
+         }
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
          
     
 
