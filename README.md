@@ -75,7 +75,7 @@ int main()
         
         cout<<"SO WHAT IS YOUR GENDER?"<<endl<<endl;
         cout<<"ENTER 1 IF YOU ARE A 'BOY'.\nENTER 0 IF YOU ARE A 'GIRL'."<<endl<<endl;
-        cin<<A;
+        cin>>A;
         
         if(A == 1){
             cout<<"HMM... I SEE.BOY'S SHOULD ALWAYS RESPECT TO GIRL'S."<<endl<<endl;
