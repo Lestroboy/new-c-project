@@ -146,9 +146,18 @@ int main()
          if(age <= 5){
              cout<<"ARE YOU KIDDING?"<<endl;
              cout<<"ARE YOU ABLE TO RUN THIS PROGRAM?"<<endl;
-             cout<<"OR...YOU ARE JUST LYING TO ME?"<<endl<<endl;
+             cout<<"OR...YOU ARE JUST LYING TO ME?"<<endl;
+             cout<<"ANYWAY YOU MIGHT BE GENIUS!"<<endl<<endl;
          }
          
+         else if(age >= 5)&&(age <= 10){
+             cout<<"I THINK YOU ARE LITTLE BIT INTERESTED IN PROGRAMMING!"<<endl;
+             cout<<"FROM MY SUGGESTION YOU SHOULD START LEARNING FROM NOW!"<<endl;
+         }
+         
+         else if(age >= 10)&&(age <= 15){
+             cout<<""
+         }
          
          
          
