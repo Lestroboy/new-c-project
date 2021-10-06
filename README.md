@@ -269,6 +269,11 @@ int main()
              cout<<"SORRY BUT....THEIR'S NOTING TO SAY ANYTHING ABOUT YOUR AGE.\nAS I AM JUST 16 :)"<<endl<<endl;
          }
          
+         
+         cout<<"YOU ARE GOING TO PLAY AN AMAZING GAME :)"<<endl<<endl;
+         
+         cout<<"GAME INFO :YOU NEED TO PUT A RANDOM NUMBER\nAND THIS PROGRAM WILL TELL YOU\nHOW CLOSE YOU ARE TO THE NUMBER WHICH COMPUTER HAD DECIDED\nIT WILL SHOW HOW FAR AND CLOSE YOU ARE TO THE NUMBER\nIF YOU WILL ENTER THE NUMBER EXACTLY WHAT COMPUTER HAD DECIDED\nYOU WIN AND WILL SHOW HOW MANY TRIES IT TOOKED YOU TO WIN THIS GAMME."<<endl<<endl;
+         
         //GUESS NUMBER GAME. 
          
          
@@ -280,24 +285,24 @@ int main()
     	 
     	num = rand() % 100 + 1;
     	
-    	cout << "Guess My Number Game\n\n";
+    	cout << "GUESS MY NUMBER GAME!"<<endl<<endl;
     
     	do
     	{
-    		cout << "Enter a guess between 1 and 100 : ";
+    		cout << "GUESS AND ENTER THE NUMBER BETWEEN 1 TO 100 : "<<endl;
     		cin >> guess;
     		tries++;
     
     		if (guess > num){
-    			cout<<"Too high!"<<endl<<endl;
+    			cout<<"TOO HIGH!"<<endl<<endl;
     		}
     		
     		else if (guess < num){
-    			cout<<"Too low!"<<endl<<endl;
+    			cout<<"TOO LOW!"<<endl<<endl;
     		}
     		
     		else{
-    			cout<<"Correct! You got it in"<<tries<<"guesses!"<<endl<<endl;
+    			cout<<"CORRECT! YOU GOT IT IN "<<tries<<" GUESSES!"<<endl<<endl;
     		}
     		
     	} while (guess != num);
