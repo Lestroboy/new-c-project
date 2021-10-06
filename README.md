@@ -1,10 +1,12 @@
 #include <iostream>
 #include <string>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 int main()
 {
-    int A, age;
+    int A, age, num, guess, tries = 0;
     string name;
     
     cout<<"WELLCOME TO MY PROGRAM."<<endl<<endl;
@@ -264,8 +266,41 @@ int main()
          }
          
          else{
-             cout<<"SORRY BUT....THEIR'S NOTING TO SAY ANYTHING ABOUT YOUR AGE.\nAS I AM JUST 16 :)"<<endl;
+             cout<<"SORRY BUT....THEIR'S NOTING TO SAY ANYTHING ABOUT YOUR AGE.\nAS I AM JUST 16 :)"<<endl<<endl;
          }
+         
+        //GUESS NUMBER GAME. 
+         
+         
+        //seed random number generator
+        
+    	srand(time(0));
+    	
+    	// random number between 1 and 100
+    	 
+    	num = rand() % 100 + 1;
+    	
+    	cout << "Guess My Number Game\n\n";
+    
+    	do
+    	{
+    		cout << "Enter a guess between 1 and 100 : ";
+    		cin >> guess;
+    		tries++;
+    
+    		if (guess > num){
+    			cout<<"Too high!"<<endl<<endl;
+    		}
+    		
+    		else if (guess < num){
+    			cout<<"Too low!"<<endl<<endl;
+    		}
+    		
+    		else{
+    			cout<<"Correct! You got it in"<<tries<<"guesses!"<<endl<<endl;
+    		}
+    		
+    	} while (guess != num);
          
         
     
