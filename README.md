@@ -307,8 +307,59 @@ int main()
     		
     	} while (guess != num);
          
+        cout<<"HOPE YOU ENJOYED THIS GAME :)"<<endl<<endl;
         
+        //ASKING AGAIN TO PLAY THAT GAME AGAIN.
+        
+        cout<<"DO YOU WANT TO PLAY THAT GAME AGAIN?"<<endl<<endl;
+        cout<<"ENTER 1 IF 'YES'.\nENTER 0 IF 'NO'."<<endl;
+        cin>>A;
+        
+        if (A == 1){
+    			cout<<"IT SEEMS LIKE YOU REALLY LOVE THAT GAME :)"<<endl<<endl;
+    			cout<<"HERE YOU GO :)"<<endl<<endl;
+    			
+    		cout<<"GAME INFO :YOU NEED TO PUT A RANDOM NUMBER\nAND THIS PROGRAM WILL TELL YOU\nHOW CLOSE YOU ARE TO THE NUMBER WHICH COMPUTER HAD DECIDED\nIT WILL SHOW HOW FAR AND CLOSE YOU ARE TO THE NUMBER\nIF YOU WILL ENTER THE NUMBER EXACTLY WHAT COMPUTER HAD DECIDED\nYOU WIN AND WILL SHOW HOW MANY TRIES IT TOOKED YOU TO WIN THIS GAMME."<<endl<<endl;
+       
+    	srand(time(0));
+    	
+    	num = rand() % 100 + 1;
+    	
+    	cout << "GUESS MY NUMBER GAME!"<<endl<<endl;
     
-
+    	do
+    	{
+    		cout << "GUESS AND ENTER THE NUMBER BETWEEN 1 TO 100 : "<<endl;
+    		cin >> guess;
+    		tries++;
+    
+    		if (guess > num){
+    			cout<<"TOO HIGH!"<<endl<<endl;
+    		}
+    		
+    		else if (guess < num){
+    			cout<<"TOO LOW!"<<endl<<endl;
+    		}
+    		
+    		else{
+    			cout<<"CORRECT! YOU GOT IT IN "<<tries<<" GUESSES!"<<endl<<endl;
+    		}
+    		
+    	} while (guess != num);	
+    		}
+    		
+    	//ELSE IF DON'T WANT TO PLAY.	
+    		
+    		else if (A == 0){
+    			cout<<"IT SEEMS LIKE YOU ARE DONE WITH THAT GAME!"<<endl<<endl;
+    		}
+    		
+    		else{
+    			cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTION :("<<endl<<endl;
+    		}
+        
+        
+        cout<<""
+        
     return 0;
 }
