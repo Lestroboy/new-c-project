@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     int A, age, num, guess, tries = 0;
-    string name;
+    string name, bot, yesno;
     
     cout<<"WELLCOME TO MY PROGRAM."<<endl<<endl;
     
@@ -102,6 +102,81 @@ int main()
             cin>>name;
             
             cout<<"HI "<<name<<" NICE TO MEET YOU :)"<<endl<<endl;
+            
+            //ASKING THE PERSON WHO NAMED YOU.
+            
+            cout<<"SO "<<name<<" COULD I KNOW WHO NAMED YOU SUCH A CUTE NAME?"<<endl<<endl;
+            cout<<"ENTER 1 IF 'YES'.\nENTER 0 IF 'NO'."<<endl;
+            cin>>A;
+            
+            if(A == 1){
+                cout<<"IT FELLS GOOD YOU AGREED WITH ME :)"<<endl<<endl;
+                
+                cout<<"ENTER 1 IF MOTHER."<<endl;
+                cout<<"ENTER 2 IF FATHER."<<endl;
+                cout<<"ENTER 3 IF BROTHER."<<endl;
+                cout<<"ENTER 4 IF SISTER."<<endl;
+                cout<<"ENTER 5 IF UNCLE."<<endl;
+                cout<<"ENTER 6 IF AUNT."<<endl;
+                cout<<"ENTER 7 IF YOU YOURSELF."<<endl;
+                
+                cout<<"ENTER THE NUMBER DOWN BELOW."<<endl;
+                cin>>A;
+                
+                if(A == 1){
+                    cout<<"OH! IT'S YOUR MOTHER."<<endl;
+                    cout<<"SO LISTEN "<<name<<" SHE IS JUST LIVING BECAUSE OF YOU"<<endl;
+                    cout<<"SO, NEVER FEEL HER SAD"<<endl<<endl;
+                }
+                
+                else if(A == 2){
+                    cout<<"OH! IT'S YOUR FATHER."<<endl;
+                    cout<<"LISTEN "<<name<<" HE IS BEING YOUR BACK BONE FROM BITH."<<endl;
+                    cout<<"SO FROM NOW ON YOU NEED TO BE HIS BACKBONE :)"<<endl<<endl;
+                }
+                
+                else if(A == 3){
+                    cout<<"OH! IT'S YOUR BROTHER."<<endl;
+                    cout<<"YOU ARE SO LUCKY "<<name<<" :)"<<endl;
+                    cout<<"HE MUST BE TEACHING YOU GREAT THINGS :)"<<endl<<endl;
+                }
+                
+                else if(A == 4){
+                    cout<<"OH! IT'S YOUR SISTER."<<endl;
+                    cout<<"I WISH I COULD HAVE A SISTER :("<<endl;
+                    cout<<"BTW... YOU ARE TOO LUCKY :)"<<endl<<endl;
+                }
+                
+                else if(A == 5){
+                    cout<<"OH! IT'S YOUR UNCLE."<<endl;
+                    cout<<"HMM...YOU MUST BE HAVING A GREAT UNCLE"<<endl<<endl;
+                }
+                
+                else if(A == 6){
+                    cout<<"OH! IT'S YOUR AUNT."<<endl;
+                    cout<<"OH! IT SEEMS LIKE YOU MUST BE GETTING LOT'S OF STUFFS TO EAT :)"<<endl<<endl;
+                }
+                
+                else if(A == 7){
+                    cout<<"OH! IT'S YOU YOURSELF."<<endl<<endl;
+                    cout<<"DOES THIS MAKE SENSE "<<name<<" :("<<endl;
+                    cout<<"HAHAHA LET IT BE I WON'T SAY ANYTHING."<<endl<<endl;
+                }
+                
+                else{
+                    cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTION :("<<endl<<endl;
+                }
+                  
+            }
+            
+            else if(A == 0){
+                cout<<"HMM... OK! IF YOU DON'T WANT TO TELL :)"<<endl<<endl;
+            }
+            
+            else{
+                cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTION :("<<endl<<endl;
+            }
+              
         }
         
         else if(A == 0){
@@ -359,7 +434,113 @@ int main()
     		}
         
         
-        cout<<""
+        cout<<"WELL! IS WAS A GREAT TIME WITH YOU :)"<<endl<<endl;
+        cout<<"WELL "<<name<<" I AM GOING NOW BECAUSE I WANT SOME WATER"<<endl<<endl;
+        cout<<"SO...IF YOU WANT TO HIRE A SERVANT YOU CAN!"<<endl<<endl;
+        cout<<"ENTER 'YES' OR 'NO' DOWN BELOW."<<endl;
+        
+        
+        cin>>yesno;
+        
+        if(yesno == "yes" || yesno == "YES" || yesno == "Yes"){
+            cout<<"HELLO MY LORD :)"<<endl;
+            cout<<"IT FEELS GOOD THAT I AM GOING TO BE YOUR SERVANT FRO NOW ON :)."<<endl<<endl;
+            cout<<"COULD YOU TAG ME A NAME PLEASE :)"<<endl<<endl;
+            cout<<"ENTER THE NAME BELOW."<<endl;
+            cin>>bot;
+            
+            cout<<"SO FROM NOW ON I AM YOUR "<<bot<<" :)"<<endl<<endl;
+        }
+        
+        else if(yesno == "no" || yesno == "NO" || yesno == "No"){
+            cout<<"SO WELL "<<name<<" I AM LEAVING NOW YOU ARE ALONE HERE"<<endl<<endl;
+        }
+        
+        else{
+            cout<<"YOU MIGHT HAVE NOT FOLLWED THE INSTRUCTION :("<<endl<<endl;
+        }
+        
+        cout<<"SO MY LORD YOU ARE GOING TO PLAY AN AMAZING AND THE BEST GAME EVER!"<<endl<<endl;
+        
+    //CASINO GAME GOES HERE.    
+        
+    void rules();
+    int main()
+    {
+        string playerName;
+        int balance; // stores player's balance
+        int bettingAmount;
+        int guess;
+        int dice; // stores the random number
+        char choice;
+        srand(time(0)); // "Seed" the random generator
+        cout << "\n\t\t========WELCOME TO CASINO WORLD=======\n\n";
+        cout << "\n\nWhat's your Name : ";
+        getline(cin, playerName);
+        cout << "\n\nEnter the starting balance to play game : $";
+        cin >> balance;
+        do
+        {
+            system("cls");
+            rules();
+            cout << "\n\nYour current balance is $ " << balance << "\n";
+    // Get player's betting balance
+            do
+            {
+                cout << "Hey, " << playerName<<", enter amount to bet : $";
+                cin >> bettingAmount;
+                if(bettingAmount > balance)
+                    cout << "Betting balance can't be more than current balance!\n"
+                           <<"\nRe-enter balance\n ";
+            }while(bettingAmount > balance);
+    // Get player's numbers
+            do
+            {
+                cout << "Guess any betting number between 1 & 10 :";
+                cin >> guess;
+                if(guess <= 0 || guess > 10)
+                    cout << "\nNumber should be between 1 to 10\n"
+                        <<"Re-enter number:\n ";
+            }while(guess <= 0 || guess > 10);
+            dice = rand()%10 + 1;
+            if(dice == guess)
+            {
+                cout << "\n\nYou are in luck!! You have won Rs." << bettingAmount * 10;
+                balance = balance + bettingAmount * 10;
+            }
+            else
+            {
+                cout << "Oops, better luck next time !! You lost $ "<< bettingAmount <<"\n";
+                balance = balance - bettingAmount;
+            }
+            cout << "\nThe winning number was : " << dice <<"\n";
+            cout << "\n"<<playerName<<", You have balance of $ " << balance << "\n";
+            if(balance == 0)
+            {
+                cout << "You have no money to play ";
+                break;
+            }
+            cout << "\n\n-->Do you want to play again (y/n)? ";
+            cin >> choice;
+        }while(choice =='Y'|| choice=='y');
+        cout << "\n\n\n";
+        cout << "\n\nThanks for playing the game. Your balance is $ " << balance << "\n\n";
+        return 0;
+    }
+    void rules()
+    {
+        system("cls");
+        cout << "\t\t======CASINO NUMBER GUESSING RULES!======\n";
+        cout << "\t1. Choose a number between 1 to 10\n";
+        cout << "\t2. Winner gets 10 times of the money bet\n";
+        cout << "\t3. Wrong bet, and you lose the amount you bet\n\n";
+    }
+            
+        
+        
+        
+        
+        
         
     return 0;
 }
