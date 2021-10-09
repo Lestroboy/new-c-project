@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+{
     int A, age, num, guess, tries = 0;
     string name, bot, yesno;
     
@@ -464,25 +465,23 @@ int main()
         
     //CASINO GAME GOES HERE.    
         
-    void rules();
-    int main()
-    {
         string playerName;
         int balance; // stores player's balance
         int bettingAmount;
-        int guess;
+        int gues;
         int dice; // stores the random number
         char choice;
         srand(time(0)); // "Seed" the random generator
         cout << "\n\t\t========WELCOME TO CASINO WORLD=======\n\n";
         cout << "\n\nWhat's your Name : ";
+        cin >> playerName;
         getline(cin, playerName);
         cout << "\n\nEnter the starting balance to play game : $";
         cin >> balance;
         do
         {
             system("cls");
-            rules();
+            
             cout << "\n\nYour current balance is $ " << balance << "\n";
     // Get player's betting balance
             do
@@ -497,11 +496,11 @@ int main()
             do
             {
                 cout << "Guess any betting number between 1 & 10 :";
-                cin >> guess;
-                if(guess <= 0 || guess > 10)
+                cin >> gues;
+                if(gues <= 0 || gues > 10)
                     cout << "\nNumber should be between 1 to 10\n"
                         <<"Re-enter number:\n ";
-            }while(guess <= 0 || guess > 10);
+            }while(gues <= 0 || gues > 10);
             dice = rand()%10 + 1;
             if(dice == guess)
             {
@@ -527,7 +526,7 @@ int main()
         cout << "\n\nThanks for playing the game. Your balance is $ " << balance << "\n\n";
         return 0;
     }
-    void rules()
+    
     {
         system("cls");
         cout << "\t\t======CASINO NUMBER GUESSING RULES!======\n";
@@ -535,12 +534,6 @@ int main()
         cout << "\t2. Winner gets 10 times of the money bet\n";
         cout << "\t3. Wrong bet, and you lose the amount you bet\n\n";
     }
-            
-        
-        
-        
-        
-        
-        
+     
     return 0;
 }
