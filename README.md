@@ -483,7 +483,12 @@ int main()
         cin >> balance;
         do
         {
-            system("cls");
+            system("cls");{
+            cout << "\t\t======CASINO NUMBER GUESSING RULES!======\n";
+            cout << "\t1. Choose a number between 1 to 10\n";
+            cout << "\t2. Winner gets 10 times of the money bet\n";
+            cout << "\t3. Wrong bet, and you lose the amount you bet\n\n";
+            }
             
             cout << "\n\nYour current balance is $ " << balance << "\n";
     // Get player's betting balance
@@ -527,15 +532,6 @@ int main()
         }while(choice =='Y'|| choice=='y');
         cout << "\n\n\n";
         cout << "\n\nThanks for playing the game. Your balance is $ " << balance << "\n\n";
-        return 0;
-    }
-    
-    {
-        system("cls");
-        cout << "\t\t======CASINO NUMBER GUESSING RULES!======\n";
-        cout << "\t1. Choose a number between 1 to 10\n";
-        cout << "\t2. Winner gets 10 times of the money bet\n";
-        cout << "\t3. Wrong bet, and you lose the amount you bet\n\n";
     }
     
     int A, balance, milk, milkgram ,sugargram, coffeegram, sugar, coffee, quantity, minute;
@@ -844,66 +840,11 @@ int main()
     while(A < 0);
     while(A >10);
     
-    do{
-        cout<<"ENTER THE POINTS YOU WOULD LIKE YO GIVE BETWEEN 1 AND 10."<<endl;
-        cin>>A;
-        cout<<endl;
-        if(A < 0){
-            cout<<"ENTERED NUMBER CAN'T BE LESS THAN 0."<<endl<<endl;
-        }
-        
-        else if(A > 10){
-             cout<<"ENTERED NUMBER CAN'T BE MORE THAN 10."<<endl<<endl;
-        }
-        
-        else if(A == 1){
-             cout<<"IT SEEMS LIKE YOU ARE STILL UNHAPPY WITH THIS PROGARM :("<<endl<<endl;
-        }
-        
-        else if(A == 2){
-             cout<<"IT SEEMS LIKE YOU ARE NOT SATISFIED EITH THIS PROGARM :("<<endl<<endl;
-        }
-        
-        else if(A == 3){
-             cout<<"IT SEEMS LIKE YOU DIDN'T REALLY ENJOYED THIS PROGRAM :("<<endl<<endl;
-        }
-        
-        else if(A == 4){
-             cout<<"IT SEEMS LIKE YOU ARE NOT SATISFIED WITH THIS PROGRAM :("<<endl<<endl;
-        }
-        
-        else if(A == 5){
-             cout<<"IT SEEMS LIKE YOU ARE NOT FULLY SATISFIED WITH THIS PROGARM :)"<<endl<<endl;
-        }
-        
-        else if(A == 6){
-             cout<<"IT SEEMS LIKE YOU ENJOYED MY PROGRAM LITTLE BIT MORE :)"<<endl<<endl;
-        }
-        
-        else if(A == 7){
-             cout<<"IT SEEMS YOU ENJOYED A LOT MY PROGRAM :)"<<endl<<endl;
-        }
-        
-        else if(A == 8){
-             cout<<"WOW! YOU RELLY ENJOYED THIS PROGRAM :)"<<endl<<endl;
-        }
-        
-        else if(A == 9){
-             cout<<"I AM REALLY HAPPY YOU ENJOYED THIS PROGRAM :)"<<endl<<endl;
-        }
-        
-        else if(A == 10){
-             cout<<"IT SEEMS LIKE YOU ARE LOVE IN WITH THIS PROGRAM YA.....:)"<<endl<<endl;
-        }
-    }
-    while(A < 0);
-    while(A >10);
-    
     int name;
-    cout<<"THANK YOU SO MUCH "<<name<<" FOR VISITING AND CHECKING OUT MY PROGRAM :)"<<endl;
+    cout<<"THANK YOU SO MUCH FOR VISITING AND CHECKING OUT MY PROGRAM :)"<<endl;
     cout<<"JUST TAKE THE SCREEN SHOT OF THE LAST LINE YOU WILL SEE\nAND MENTIONS ME ON INSTAGRAM\nIF YOU HAVE. IT WILL MAKE MY DAY :)"<<endl<<endl;
     
-    cout<<"MY INSTAGRAM ID:- lestroboy"<<endl;
+    cout<<"MY INSTAGRAM ID:- lestroboy"<<endl<<endl;
     
     cout<<":)..........................MY LAST LINE...............................(:"<<endl<<endl;
     
