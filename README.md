@@ -113,6 +113,7 @@ int main()
             
             //ASKING THE PERSON WHO NAMED YOU.
             
+            restart5:
             cout<<"SO "<<name<<" COULD I KNOW WHO NAMED YOU SUCH A CUTE NAME?"<<endl<<endl;
             cout<<"ENTER 1 IF 'YES'.\nENTER 0 IF 'NO'."<<endl;
             cin>>A;
@@ -120,7 +121,7 @@ int main()
             if(A == 1){
                 cout<<"IT FELLS GOOD YOU AGREED WITH ME :)"<<endl<<endl;
                 
-                restart5:
+                restart6:
                 cout<<"ENTER 1 IF MOTHER."<<endl;
                 cout<<"ENTER 2 IF FATHER."<<endl;
                 cout<<"ENTER 3 IF BROTHER."<<endl;
@@ -174,6 +175,7 @@ int main()
                 
                 else{
                     cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTION :("<<endl<<endl;
+                    goto restart6;
                 }
                   
             }
@@ -184,7 +186,7 @@ int main()
             
             else{
                 cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTION :("<<endl<<endl;
-                restart4;
+                goto restart5;
             }
               
         }
@@ -195,7 +197,7 @@ int main()
         
         else{
             cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTIONS :("<<endl<<endl;
-            restart5;
+            goto restart4;
         }
         
         //ASKING TO PLAY A GAME.
@@ -203,7 +205,7 @@ int main()
         cout<<"WELL "<<name<<" THEIR ARE MANY THINGS TO ASK AND TALK"<<endl<<endl;
         cout<<"BUT, BEFORE THAT LET'S PLAY SOME TRICKY GAME :)"<<endl<<endl;
         
-        restart6:
+        restart11:
         cout<<"ENTER 1 IF YOU WANT TO PLAY A TRICKY GAME .\nENTER 0 IF YOU DON'T WANT TO PLAY A TRICKY GAME ."<<endl<<endl;
         cin>>A;
         
@@ -242,7 +244,7 @@ int main()
             
             else{
                 cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTIONS :("<<endl<<endl;
-                restart7;
+                goto restart7;
             }
             
         }
@@ -253,7 +255,7 @@ int main()
         
         else{
             cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTIONS :("<<endl<<endl;
-            restart6;
+            goto restart11;
         }
          
          cout<<"WELL "<<name<<"! LET'S GET BACK TO THE CONVERSATION."<<endl<<endl;
@@ -447,7 +449,7 @@ int main()
     		
     		else{
     			cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTION :("<<endl<<endl;
-    			restart8;
+    			goto restart8;
     		}
         
         
@@ -477,7 +479,7 @@ int main()
         
         else{
             cout<<"YOU MIGHT HAVE NOT FOLLWED THE INSTRUCTION :("<<endl<<endl;
-            restart9;
+            goto restart9;
         }
         
         cout<<"SO MY LORD YOU ARE GOING TO PLAY AN AMAZING AND THE BEST GAME EVER!"<<endl<<endl;
@@ -795,7 +797,7 @@ int main()
                 cout<<"IT'S ALL UP TO YOU IF YOU WAN TO DRINK YOUR COFFEE :)"<<endl;
             }
             
-     
+    }
         // DON'T WANT COFFEE CONDITIONS.
         
         else if(A == 0){
@@ -804,7 +806,7 @@ int main()
         
         else{
         cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTION :("<<endl<<endl;
-        restart10;
+        goto restart10;
     }
     
     do{
@@ -889,4 +891,4 @@ int main()
      
     return 0;
 }
-}
+
