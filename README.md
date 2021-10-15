@@ -14,6 +14,7 @@ int main()
     
     //ASKING IF HE/SHE IS GOOD.
     
+    restart1:
     cout<<"ARE YOU GOOD?"<<endl<<endl;
     cout<<"ENTER 1 FOR 'YES'\nENTER 0 FOR 'NO'."<<endl<<endl;
     cin>>A;
@@ -29,6 +30,7 @@ int main()
     
     else{
         cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTIONS :("<<endl<<endl;
+        goto restart1;
     }
     
     //ASKING WEATHER HE/SHE WANT TO KNOW ABOUT ME.
@@ -37,6 +39,7 @@ int main()
     cout<<"            OR              "<<endl;
     cout<<"JUST WANT TO ENJOY THIS PROGRAM."<<endl<<endl;
     
+    restart2:
     cout<<"ENTER 1 TO KNOW ABOUT ME.\nENTER 0 TO JUST ENJOY THIS PROGRAM."<<endl;
     cin>>A;
     
@@ -72,10 +75,12 @@ int main()
         
         else{
             cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTIONS :("<<endl<<endl;
+            goto restart2;
         }
         
         //ASKING GENDER.
         
+        restart3:
         cout<<"SO WHAT IS YOUR GENDER?"<<endl<<endl;
         cout<<"ENTER 1 IF YOU ARE A 'BOY'.\nENTER 0 IF YOU ARE A 'GIRL'."<<endl<<endl;
         cin>>A;
@@ -90,10 +95,12 @@ int main()
         
         else{
             cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTIONS :("<<endl<<endl;
+            goto restart3;
         }
         
         //ASKING GOOD NAME.
         
+        restart4:
         cout<<"COULD YOU TELL ME YOUR GOOD NAME :)"<<endl<<endl;
         cout<<"ENTER 1 FOR 'YES'.\nENTER 0 FOR 'NO'."<<endl<<endl;
         cin>>A;
@@ -113,6 +120,7 @@ int main()
             if(A == 1){
                 cout<<"IT FELLS GOOD YOU AGREED WITH ME :)"<<endl<<endl;
                 
+                restart5:
                 cout<<"ENTER 1 IF MOTHER."<<endl;
                 cout<<"ENTER 2 IF FATHER."<<endl;
                 cout<<"ENTER 3 IF BROTHER."<<endl;
@@ -176,6 +184,7 @@ int main()
             
             else{
                 cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTION :("<<endl<<endl;
+                restart4;
             }
               
         }
@@ -186,6 +195,7 @@ int main()
         
         else{
             cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTIONS :("<<endl<<endl;
+            restart5;
         }
         
         //ASKING TO PLAY A GAME.
@@ -193,6 +203,7 @@ int main()
         cout<<"WELL "<<name<<" THEIR ARE MANY THINGS TO ASK AND TALK"<<endl<<endl;
         cout<<"BUT, BEFORE THAT LET'S PLAY SOME TRICKY GAME :)"<<endl<<endl;
         
+        restart6:
         cout<<"ENTER 1 IF YOU WANT TO PLAY A TRICKY GAME .\nENTER 0 IF YOU DON'T WANT TO PLAY A TRICKY GAME ."<<endl<<endl;
         cin>>A;
         
@@ -211,6 +222,7 @@ int main()
             
             //ASKING TO USE CALCULATOR.
             
+            restart7:
             cout<<"DO YOU WANT TO USE THE CACULATOR?\nFOR CROSS CHECKING THE ANSWER."<<endl;
             cout<<"ENTER 1 FOR 'YES'.\nENTER 0 FOR 'NO'."<<endl;
             cin>>A;
@@ -230,6 +242,7 @@ int main()
             
             else{
                 cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTIONS :("<<endl<<endl;
+                restart7;
             }
             
         }
@@ -240,6 +253,7 @@ int main()
         
         else{
             cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTIONS :("<<endl<<endl;
+            restart6;
         }
          
          cout<<"WELL "<<name<<"! LET'S GET BACK TO THE CONVERSATION."<<endl<<endl;
@@ -387,6 +401,7 @@ int main()
         
         //ASKING AGAIN TO PLAY THAT GAME AGAIN.
         
+        restart8:
         cout<<"DO YOU WANT TO PLAY THAT GAME AGAIN?"<<endl<<endl;
         cout<<"ENTER 1 IF 'YES'.\nENTER 0 IF 'NO'."<<endl;
         cin>>A;
@@ -432,11 +447,14 @@ int main()
     		
     		else{
     			cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTION :("<<endl<<endl;
+    			restart8;
     		}
         
         
         cout<<"WELL! IS WAS A GREAT TIME WITH YOU :)"<<endl<<endl;
         cout<<"WELL "<<name<<" I AM GOING NOW BECAUSE I WANT SOME WATER"<<endl<<endl;
+        
+        restart9:
         cout<<"SO...IF YOU WANT TO HIRE A SERVANT YOU CAN!"<<endl<<endl;
         cout<<"ENTER 'YES' OR 'NO' DOWN BELOW."<<endl;
         
@@ -459,6 +477,7 @@ int main()
         
         else{
             cout<<"YOU MIGHT HAVE NOT FOLLWED THE INSTRUCTION :("<<endl<<endl;
+            restart9;
         }
         
         cout<<"SO MY LORD YOU ARE GOING TO PLAY AN AMAZING AND THE BEST GAME EVER!"<<endl<<endl;
@@ -537,6 +556,8 @@ int main()
     int A, balance, milk, milkgram ,sugargram, coffeegram, sugar, coffee, quantity, minute;
     
     cout<<"WELL, YOU MIGHT BE FELLING TIRED FOR NOW"<<endl<<endl;
+    
+    restart10:
     cout<<"WOULD YOU LIKE TO HAVE A CUP OF COFFEE!"<<endl<<endl;
     cout<<"ENTER 1 FOR'YES'.\nENTER 0 FOR 'NO'."<<endl;
     cin>>A;
@@ -783,6 +804,7 @@ int main()
         
         else{
         cout<<"YOU MIGHT HAVE NOT FOLLOWED THE INSTRUCTION :("<<endl<<endl;
+        restart10;
     }
     
     do{
@@ -842,11 +864,11 @@ int main()
     
     int name;
     cout<<"THANK YOU SO MUCH FOR VISITING AND CHECKING OUT MY PROGRAM :)"<<endl;
-    cout<<"JUST TAKE THE SCREEN SHOT OF THE LAST LINE YOU WILL SEE\nAND MENTIONS ME ON INSTAGRAM\nIF YOU HAVE. IT WILL MAKE MY DAY :)"<<endl<<endl;
+    cout<<"JUST TAKE THE SCREEN SHOT OF THE LAST LINE\nYOU WILL SEE AND MENTIONS ME ON INSTAGRAM\nIF YOU HAVE. IT WILL MAKE MY DAY :)"<<endl<<endl;
     
     cout<<"MY INSTAGRAM ID:- lestroboy"<<endl<<endl;
     
-    cout<<":)..........................MY LAST LINE...............................(:"<<endl<<endl;
+    cout<<":)......................... MY LAST LINE.........................(:"<<endl<<endl;
     
     cout<<"...................     ..             ..        ..              .."<<endl;
     cout<<"...................     ..             ..         ..            .. "<<endl;
